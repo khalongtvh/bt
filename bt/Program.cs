@@ -18,24 +18,24 @@ namespace bt
                 switch (a_299)
                 {
                     case 1:
-                        tamGiac tg = new tamGiac();
-                        tg.ThongTin();
+                        tamGiac tg_229 = new tamGiac();
+                        tg_229.ThongTin();
                         break;
                     case 2:
-                        tuGiac tug = new tuGiac();
-                        tug.ThongTin();
+                        tuGiac tug_229 = new tuGiac();
+                        tug_229.ThongTin();
                         break;
                     case 3:
-                        hinhVuong hinhVuong = new hinhVuong();
-                        hinhVuong.ThongTin();
+                        hinhVuong hinhVuong_229 = new hinhVuong();
+                        hinhVuong_229.ThongTin();
                         break;
                     case 4:
-                        hinhBinhHanh hinhBinhHanh = new hinhBinhHanh();
-                        hinhBinhHanh.ThongTin();
+                        hinhBinhHanh hinhBinhHanh_229 = new hinhBinhHanh();
+                        hinhBinhHanh_229.ThongTin();
                         break;
                     case 5:
-                        hinhChuNhat hinhChuNhat = new hinhChuNhat();
-                        hinhChuNhat.ThongTin();
+                        hinhChuNhat hinhChuNhat_229 = new hinhChuNhat();
+                        hinhChuNhat_229.ThongTin();
                         break;
                     default:
                         Console.WriteLine("Thoat!");
