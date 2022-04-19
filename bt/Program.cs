@@ -19,23 +19,23 @@ namespace bt
                 {
                     case 1:
                         tamGiac tg = new tamGiac();
-                        tg.Canh();
+                        tg.ThongTin();
                         break;
                     case 2:
                         tuGiac tug = new tuGiac();
-                        tug.Canh();
+                        tug.ThongTin();
                         break;
                     case 3:
                         hinhVuong hinhVuong = new hinhVuong();
-                        hinhVuong.Canh();
+                        hinhVuong.ThongTin();
                         break;
                     case 4:
                         hinhBinhHanh hinhBinhHanh = new hinhBinhHanh();
-                        hinhBinhHanh.Canh();
+                        hinhBinhHanh.ThongTin();
                         break;
                     case 5:
                         hinhChuNhat hinhChuNhat = new hinhChuNhat();
-                        hinhChuNhat.Canh();
+                        hinhChuNhat.ThongTin();
                         break;
                     default:
                         Console.WriteLine("Thoat!");
@@ -47,35 +47,35 @@ namespace bt
     }
     class daGiac
     {
-        public virtual void Canh()
+        public virtual void ThongTin()
         {
             Console.WriteLine("so canh da giac : ");
         }
     }
     class tamGiac : daGiac
     {
-        public override void Canh()
+        public override void ThongTin()
         {
             Console.WriteLine("so canh tam giac : 3 canh");
         }
     }
     class tuGiac : daGiac
     {
-        public override void Canh()
+        public override void ThongTin()
         {
             Console.WriteLine("so canh tu giac : 4 canh");
         }
     }
     class hinhVuong : daGiac
     {
-        public override void Canh()
+        public override void ThongTin()
         {
             Console.WriteLine("so canh hinh vuong : 4 canh");
         }
     }
     class hinhBinhHanh : daGiac
     {
-        public override void Canh()
+        public override void ThongTin()
         {
             Console.WriteLine("so canh hinh binh Hanh : 4 canh");
         }
@@ -83,7 +83,7 @@ namespace bt
 
     class hinhChuNhat: daGiac
     {
-        public override void Canh()
+        public override void ThongTin()
         {
             Console.WriteLine("so canh hinh chu nhat : 4 canh");
         }
