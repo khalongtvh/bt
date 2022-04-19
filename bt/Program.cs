@@ -14,8 +14,8 @@ namespace bt
             Console.Write("nhap mot trong cac hinh : ");
             try
             {
-                int a = int.Parse(Console.ReadLine());
-                switch (a)
+                int a_299 = int.Parse(Console.ReadLine());
+                switch (a_299)
                 {
                     case 1:
                         tamGiac tg = new tamGiac();
@@ -43,8 +43,6 @@ namespace bt
                 }
             }
             catch (Exception e) { }
-            
-
         }
     }
     class daGiac
